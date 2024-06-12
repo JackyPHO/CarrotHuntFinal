@@ -6,3 +6,5 @@ Start out with three lives, but two lives can be earned by finding the secret le
 Avoid falling pits and spikey enemies.
 
 Visual assets courtesy of [Kenny Assets](https://kenney.nl/assets), with gratitude.
+
+Designed and Programmed by Jacky Ho
