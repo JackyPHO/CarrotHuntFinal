@@ -4,7 +4,7 @@
 //
 // Carrot Hunt
 //
-// Game 3 Platformer
+// Game 4 Final
 // 
 
 // debug with extreme prejudice
@@ -29,11 +29,11 @@ let config = {
     },
     width: 1440,
     height: 900,
-    scene: [Load, Platformer]
+    scene: [Load, Level1, End, Death]
 }
 
 var cursors;
 const SCALE = 2.0;
-var my = {sprite: {}, text: {}, vfx: {}};
+var my = {sprite: {}, text: {}, vfx: {}, lives:[]};
 
 const game = new Phaser.Game(config);
