@@ -24,7 +24,7 @@ class Level1 extends Phaser.Scene {
     preload(){
         this.load.scenePlugin('AnimatedTiles', './lib/AnimatedTiles.js', 'animatedTiles', 'animatedTiles')    }   
     create() {
-        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>Level 1: Delight Garden<br>A: left // D: right // Space: jump // R: Restart Game<br>Can you find the Secret Stage?'
+        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>A: left // D: right // Space: jump // R: Restart Game<br>Can you find the Secret Stage?'
         this.step = this.sound.add('step').setRate(2).setVolume(0.25);
         this.eat = this.sound.add('eat').setVolume(0.25);
         this.jump = this.sound.add('jump').setVolume(0.25);
@@ -326,7 +326,7 @@ class Level1 extends Phaser.Scene {
         return true;
     }
     softReset(){
-        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>Level 1: Delight Garden<br>A: left // D: right // Space: jump // R: Restart Game<br>Can you find the Secret Stage?'
+        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>A: left // D: right // Space: jump // R: Restart Game'
         this.physics.world.setBounds(0, -100, 2700, 1015);
         this.cameras.main.setBounds(0, 360, 2700, 450);
         this.cameras.main.setZoom(2);

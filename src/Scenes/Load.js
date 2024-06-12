@@ -46,7 +46,7 @@ class Load extends Phaser.Scene {
     }
 
     create() {
-        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>Collect all the carrots to win the game'
+        document.getElementById('description').innerHTML = '<h2>Carrot Hunt<br>Collect all the carrots to win the game<br>Designed and Programmed by Jacky Ho<br>Sprite Art and Audio from Kenneys Assets'
         this.anims.create({
             key: 'walk',
             frames: this.anims.generateFrameNames('bunny', {
